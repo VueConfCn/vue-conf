@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/VueConfCn/.github/raw/main/vue-conf.svg" width="200" height="200" alt="VueConference"/>
+    <img src="https://github.com/VueConfCn/.github/raw/master/vue-conf.svg" width="200" height="200" alt="VueConference"/>
 
 # Vue Conf
 
