@@ -20,7 +20,8 @@
             <NuxtLink
                 class="text-sm"
                 to="/events"
-            >Events</NuxtLink>
+            >Events
+            </NuxtLink>
             <NuxtLink
                 class="flex items-center"
                 title="VueConference"
@@ -32,7 +33,12 @@
                     src="/logo.svg"
                 >
             </NuxtLink>
-            <span class="text-sm">Photos</span>
+            <NuxtLink
+                class="text-sm"
+                target="_blank"
+                to="https://photos.app.goo.gl/PZwmHq1w4Xz344Y18"
+            >Photos
+            </NuxtLink>
             <NuxtLink
                 :to="config.public.github"
                 class="flex items-center gap-1"
