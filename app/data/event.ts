@@ -1,0 +1,142 @@
+import type { IEvent } from '~/types'
+
+export const AllEvents: IEvent = {
+    '2025.07.12': [
+        {
+            author: 'Evan You',
+            github: 'yyx990803',
+            title: 'Vue 和 Vite 生态最新进展',
+            video: 'https://www.youtube.com/watch?v=IyzTDZeJQK8',
+        },
+        {
+            author: 'patak',
+            github: 'patak-dev',
+            title: 'The first 5 years of Vite',
+            ppt: 'https://vueconf-cn-25-patak.vercel.app',
+            video: 'https://www.youtube.com/watch?v=6vDJVR6nmh4',
+        },
+        {
+            author: 'Johnson Chu',
+            github: 'johnsoncodehk',
+            title: 'TSSLint 如何消除了 linter 在 IDE 中最大的隱性開銷',
+            video: 'https://www.youtube.com/watch?v=w4sdpIplPjg',
+        },
+        {
+            author: '沈青川',
+            github: 'ShenQingchuan',
+            title: 'Vue Vine 1.0 升级报告',
+            ppt: 'https://vue-vine-ppt-2025.vercel.app',
+            video: 'https://www.youtube.com/watch?v=6-3h2azjKu',
+        },
+        {
+            author: '小音',
+            github: 'LittleSound',
+            title: 'Vapor 和我的开源之旅（闪电秀）',
+            ppt: 'https://drive.google.com/file/d/1BHI68cjm41MLvn9mzMJd4J6mqhm6_QDH/view?usp=sharing',
+            video: 'https://www.youtube.com/watch?v=L_zSd5oa2TQ',
+        },
+        {
+            author: '吕洋',
+            github: 'lyonbot',
+            title: '浏览器里构建 Vue：渐进式 AI+低代码开发体验',
+            ppt: 'https://aiready-bundler-n-editor-repl.netlify.app/',
+        },
+        {
+            author: '高飞',
+            github: 'zhiyuanzmj',
+            title: 'Vue JSX Vapor 的进化史',
+            ppt: 'https://github.com/zhiyuanzmj/vue-jsx-vapor-slidev',
+            video: 'https://www.youtube.com/watch?v=LpQM6s3LYRg',
+        },
+        {
+            author: 'Doctor Wu',
+            github: 'Doctor-wu',
+            title: 'Alien Signals：Vue 响应式演进与最速 Signals 实践',
+            ppt: 'https://talks.doctorwu.me/conf_vue2025',
+            video: 'https://www.youtube.com/watch?v=84VFrwXFzxg',
+        },
+        {
+            author: 'posva',
+            github: 'posva',
+            title: 'Smooth UI and async state management',
+            ppt: 'https://esm.is/2025-pinia-colada-talk-zh',
+        },
+        {
+            author: '三咲智子',
+            github: 'sxzz',
+            title: 'tsdown：库库包一切',
+            ppt: 'https://talks.sxzz.dev/2025-07-vueconf',
+            video: 'https://www.youtube.com/watch?v=vqCmytcH658',
+        },
+        {
+            author: '山吹色御守',
+            github: 'KazariEX',
+            title: 'Vue Language Tools 增量更新',
+            ppt: 'https://bikari-vueconf-2025.netlify.app',
+            video: 'https://www.youtube.com/watch?v=-LeR_ooUPqQ',
+        },
+        {
+            author: 'Anthony Fu',
+            github: 'antfu',
+            title: 'Vite DevTools 前瞻介绍',
+            ppt: 'https://talks.antfu.me/2025/vueconf-china/',
+            video: 'https://www.youtube.com/watch?v=ZlZ0NvkVjXI',
+        },
+    ],
+    '2024.07.06': [
+        {
+            author: 'Evan You',
+            github: 'yyx990803',
+            title: 'Vue & Vite：现状与未来',
+            video: 'https://www.youtube.com/watch?v=_NMlzlA7fA0',
+        },
+        {
+            author: 'Anthony Fu',
+            github: 'antfu',
+            title: 'Anthony 的开源之路：Yak Shaving「剪牛毛」',
+            video: 'https://www.youtube.com/watch?v=HLesT7fSvfs',
+        },
+        {
+            author: 'posva',
+            github: 'posva',
+            title: '数据加载器 - 将 Vue 中的数据获取提升到新高度',
+            video: 'https://www.youtube.com/watch?v=VkSGxuAJwv8',
+        },
+        {
+            author: '赵锦江',
+            github: 'jinjiang',
+            title: '十年',
+            video: 'https://www.youtube.com/watch?v=DGPxvPSwCPA',
+        },
+        {
+            author: 'Arlo',
+            github: 'webfansplz',
+            title: 'Vue DevTools 的下一个迭代',
+            video: 'https://www.youtube.com/watch?v=hiD2Es6BaCk',
+        },
+        {
+            author: '沈青川',
+            github: 'ShenQingchuan',
+            title: 'Vue Vine：全新 Vue 组件书写方式',
+            video: 'https://www.youtube.com/watch?v=AfuQPbCWwMI',
+        },
+        {
+            author: '三咲智子',
+            github: 'sxzz',
+            title: 'Vue Vapor：重新发明',
+            video: 'https://www.youtube.com/watch?v=LoODvZZQfgQ',
+        },
+        {
+            author: '杨明山',
+            github: 'yangmingshan',
+            title: 'Vue Mini：不妥协的小程序框架',
+            video: 'https://www.youtube.com/watch?v=1L0XDPqji4A',
+        },
+        {
+            author: '辛宝 Otto',
+            github: 'otto-j',
+            title: '如何基于 Vue 开发鸿蒙 App？',
+            video: 'https://www.youtube.com/watch?v=vWYTYP-F-T0',
+        },
+    ],
+}

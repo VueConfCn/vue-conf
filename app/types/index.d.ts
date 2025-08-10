@@ -7,3 +7,15 @@ export interface IMember {
     vue?: boolean
     vite?: boolean
 }
+
+export interface IEventItem {
+    author: string
+    github: string
+    title: string
+    ppt?: string
+    video?: string
+}
+
+export interface IEvent {
+    [key: string]: IEventItem[]
+}

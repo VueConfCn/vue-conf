@@ -43,5 +43,3 @@ If you follow these instructions, your PR will land pretty safely in the main re
 
 ## License
 [MIT](https://github.com/VueConfCn/vue-conf/blob/master/LICENSE)
-
-[//]: # (https://juejin.cn/post/6964664022541008932)
